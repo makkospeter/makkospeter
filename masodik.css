@@ -69,3 +69,6 @@ p span {
 hr {
   border:2px solid grey
 }
+body {
+  background-image:url(images/háttér.png);
+}
