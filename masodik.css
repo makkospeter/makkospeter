@@ -71,4 +71,6 @@ hr {
 }
 body {
   background-image:url(images/háttér.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
