@@ -47,12 +47,40 @@ ul {
   .divek {
     border: 3px solid  rgb(7, 39, 82);
     border-collapse: collapse;
-    background-color: rgb(80, 98, 150);
-    width: 33%;
+    width: 30%;
     float:left;
     margin: auto;
-    height: 800px;
+    min-height: 800px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/csicskafiam.jpg);
   }
   img {
     width: 100%;
+    border: solid 2px black;
+  }
+  .uj {
+    list-style: disc;
+    list-style-position: inside;
+    background-image: url(images/csicskafiam.jpg)
+  }
+  .ujli {
+    float: none;
+    font-size: 18pt;
+    background-image: url(images/csicskafiam.jpg)
+  }
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .meno {
+    
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid black;
+    background-image: url(images/csicskafiam.jpg);
+  }
+  h3 {
+    text-decoration: underline;
   }
