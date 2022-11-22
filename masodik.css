@@ -5,6 +5,7 @@ body {
   color: rgba(255, 255, 255, 0.25);
   text-align: center;
   margin: 0;
+  text-shadow: 2px 2px #000000;
 }
 .img {
   display: inline-block;
@@ -37,6 +38,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  width: 312px;
 }
 
 li {
@@ -56,4 +58,27 @@ li a:hover {
 }
 .active {
   background-color: rgb(255, 0, 0);
+}
+
+.svg:hover path {
+  d: path("M2,2 L5,8 L8,2");
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+svg {
+  width: 10%;
+  height: 10%;
+  margin: 0px;
+  padding: 0px;
+}
+svg polyline,
+svg line,
+svg path {
+  fill: none;
+  stroke: rgb(255, 255, 255);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: 0.2s;
 }
