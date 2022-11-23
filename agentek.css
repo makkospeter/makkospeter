@@ -13,6 +13,7 @@
     color: red;
      font-weight: bold;
      text-align: center;
+     margin-left: 27vw;
   }
 body {
     margin: 0px;
@@ -29,7 +30,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    width: 312px;
+    width: 284px;
   }
   
   li {
@@ -53,14 +54,14 @@ ul {
   .divek {
     border: 3px solid  rgb(7, 39, 82);
     border-collapse: collapse;
-    width: 30%;
+    width: 588px;
     float:left;
     margin: auto;
     padding: 20px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: none;
-    height: 846px;
+    height:928px;
   }
   img {
     width: 100%;
@@ -87,6 +88,7 @@ ul {
     padding: 10px;
     border: 2px solid black;
     background: none;
+    height: 220px;
   }
   h3 {
     text-decoration: underline;
