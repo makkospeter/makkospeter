@@ -54,14 +54,14 @@ ul {
   .divek {
     border: 3px solid  rgb(7, 39, 82);
     border-collapse: collapse;
-    width: 588px;
+    width: 575px;
     float:left;
     margin: auto;
     padding: 20px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: none;
-    height:928px;
+    height:920px;
   }
   img {
     width: 100%;
